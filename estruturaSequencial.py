@@ -74,15 +74,65 @@
 
 # calcular()
 
-#8
-def calcular():
-    valor_hora = float(input('Qual o valor de sua hora?'))
-    hora_trabalhadas = int(input('Quantas horas foram trabalhadas?'))
-    salario = valor_hora * hora_trabalhadas
-    print(f'O seu salário neste mês será de: {salario}')
+#8 Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
+# def calcular():
+#     valor_hora = float(input('Qual o valor de sua hora?'))
+#     hora_trabalhadas = int(input('Quantas horas foram trabalhadas?'))
+#     salario = valor_hora * hora_trabalhadas
+#     print(f'O seu salário neste mês será de: {salario}')
 
-calcular()
+# calcular()
+
+#9 Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
+
+# fahr = float(input('insira a temperatuda em Fahrenheit'))
+# celsius = int(5 * ((fahr-32) / 9))
+# print(f'A temperatura em Celsius é : {celsius}')
+
+
+
+#10 Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
+ 
+# from fractions import Fraction
+
+# frac = Fraction(9,5)
+# celsius = float(input('insira a temperatuda em Celsius'))
+# fahr = (frac * celsius) + 32
+# print(f'A temperatura em Fahrenheint é : {fahr}')
     
-    
+#11 Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
+# A. o produto do dobro do primeiro com metade do segundo .
+# B. a soma do triplo do primeiro com o terceiro.
+# C. o terceiro elevado ao cubo.
+
+# primeiro_inteiro = int(input('Insira o primeiro numero inteiro'))
+# segundo_inteiro = int(input('Insira o segundo numero inteiro'))
+# numero_real = float(input('Insira aqui um número real'))
+
+# def calculo():
+#    a = (primeiro_inteiro *2) * (segundo_inteiro / 2)
+#    b = (primeiro_inteiro * 3) + numero_real
+#    c = numero_real ** 3
+
+#    print(f'O produto do dobro do primeiro com metade do segundo é {a}')
+#    print(f'A soma do triplo do primeiro com o terceiro é {b}')
+#    print(f'O terceiro número elevado ao cubo é {c}')
    
 
+# calculo()
+
+#12 Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
+
+# def peso(altura):
+
+
+#     peso_ideal = (72.7 * (float(altura))) - 58
+#     peso_convertido = round(peso_ideal, 2)
+#     print(f'Seu peso ideal é {peso_convertido}')
+
+
+# peso(160.23)
+
+#13 Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
+#Para homens: (72.7*h) - 58
+#Para mulheres: (62.1*h) - 44.7
