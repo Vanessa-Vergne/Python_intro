@@ -91,4 +91,32 @@
 # print('O maior número é:', maior)
 # print('O menor número é:', menor)
 
+#____________________________________________________________________________________________
+# num1 = float(input('Digite o primeiro número'))
+# num2 = float(input('Digite o primeiro número'))
+# num3 = float(input('Digite o primeiro número'))
+
+# maior = max(num1,num2,num3)
+# menor = min(num1,num2,num3)
+
+# print('O maior número é:', maior)
+# print('O menor número é:', menor)
+
 #8 Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
+# produto1 = float(input('Digite o primeiro preço'))
+# produto2 = float(input('Digite o segundo preço'))
+# produto3 = float(input('Digite o terceiro preço'))
+
+# menor = min(produto1,produto2,produto3)
+
+# if menor == produto1:
+#     print('O produto a ser comprado é o primeiro')
+# elif menor == produto2:
+#     print('O produto a ser comprado é o segundo')
+# elif menor == produto3:
+#     print('O produto a ser comprado é o terceiro')
+
+#9 Faça um Programa que leia três números e mostre-os em ordem decrescente.
+num1 = float(input('Digite o primeiro número'))
+num2 = float(input('Digite o primeiro número'))
+num3 = float(input('Digite o primeiro número'))
