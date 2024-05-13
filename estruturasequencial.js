@@ -112,3 +112,10 @@
 
 //12. Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que
 // calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
+// let altura = parseFloat(window.prompt("Insira aqui sua altura"))
+
+// function pesoIdeal(medida) {
+//   result = 72.7 * medida - 58
+//   console.log(result)
+// }
+// pesoIdeal(altura)
